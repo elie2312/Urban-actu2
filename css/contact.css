@@ -253,3 +253,19 @@ button {
      entre les étiquettes et les champs texte */
   margin-left: .5em;
 }
+footer
+{
+  font-family: 'Roboto-Black';
+  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p
+{
+  color: #9B9B9B;
+  font-size: 13px;
+}
