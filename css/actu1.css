@@ -95,14 +95,13 @@ body
 .bg
 {
 	background-image: url("../img/bg_4.jpg");
-	height: 110%;
+	height: 160%;
 	background-size: cover;
     margin-top: -4%;
 
 }
 
 
-/* contenu pour la section article */
 .container-article {
   position: absolute;
   margin-top: -10%;
@@ -184,4 +183,8 @@ ul li a {
 
 .zoom:hover {
   transform: scale(1.2) ;
+}
+
+.spotify {
+  margin-top: 7%;
 }
