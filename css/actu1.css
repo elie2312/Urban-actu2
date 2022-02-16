@@ -95,7 +95,7 @@ body
 .bg
 {
 	background-image: url("../img/bg_4.jpg");
-	height: 100%;
+	height: 110%;
 	background-size: cover;
     margin-top: -4%;
 
@@ -134,6 +134,7 @@ footer
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 footer p
@@ -175,4 +176,12 @@ ul li a {
  color: white;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
 
+}
+
+.zoom:hover {
+  transform: scale(1.2) ;
+}
