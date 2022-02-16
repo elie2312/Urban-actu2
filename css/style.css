@@ -117,7 +117,9 @@ body
   
 }
 
-
+p {
+  color: white;
+}
 
 .titre h2
 {
@@ -268,11 +270,7 @@ text-decoration: none;
     transform: scale(1.1);
   }
 }
-.hover_anim {
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
+
 .hover_anim:hover, .hover_anim:focus, .hover_anim:active {
   -webkit-animation-name: hover_anim;
   animation-name: hover_anim;
@@ -335,31 +333,7 @@ text-decoration: none;
 }
 
 
-h5
-{
-	 animation: titleAnimation 36s linear infinite 0s;
-   font-size: 50px;
-   color: #fff;
-   letter-spacing: .5rem;
-}
 
-/* fade pour animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 
 .font-caption
@@ -384,57 +358,7 @@ text-align: center;
 
 }
 
-@keyframes titleAnimation { 
-	0% {
-	    opacity: 0;
-	    transform: translateX(200px);
-	}
-	8% {
-	    opacity: 1;
-	    transform: translateX(0px);
-	}
-	17% {
-	    opacity: 1;
-	    transform: translateX(0px);
-	}
-	19% {
-	    opacity: 0;
-	    transform: translateX(-400px);
-	}
-	25% { opacity: 0 }
-	100% { opacity: 0 }
-}
 
-
-/* CSS pour le menu nav */
-.navigation {
-	
-  z-index: 10;
-  position: fixed;
-  top: 30%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  right: 50px;
-
-}
-.navigation ul {
-  list-style: none;
-
-}
-.navigation li {
-  
-  margin: 15px 0;
-}
-.navigation li a {
-color: #fff;
-text-decoration: none;
-
-  transition: .2s ease;
-}
-.navigation li a:hover{
-  color: gray;
-
-}
 
 
 /* contenu pour la section article */
